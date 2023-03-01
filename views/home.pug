@@ -1,0 +1,47 @@
+
+extends base.pug
+block scripts 
+    scripts(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+  
+    section#introSection 
+        div Welcome to Dance Academy.
+        div.small Eat sleep Hungama Repeat 
+    section#MissionSection 
+        h2 Our Mission
+        div.card 
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="static/dance6.png")
+                div.card-content 
+                    p This is the best Dance academy in Patna.
+ 
+                 
+        div.card 
+            h3 Dance the way you like.
+            div.card-box 
+                div.card-img 
+                    img(src="static/dance1.webp")
+                div.card-content 
+                    p This is the best Dance academy in Patna.
+        div.card 
+            h3 Expert Teaching.
+            div.card-box 
+                div.card-img 
+                    img(src="static/dance5.jpg")
+                div.card-content 
+                    p This is the best Dance academy in Patna.
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors 
+            img(src='static/apple-logo.jpg',alt="sponsor img1",class="spImage")
+            img(src='static/Amazon-logo.webp',alt="sponsor img1",class="spImage")
+            img(src='static/microsoft-logo.jpeg',alt="sponsor img1",class="spImage")
+            img(src='static/Samsung-logo.avif',alt="sponsor img1",class="spImage")
+

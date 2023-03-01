@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    box-sizing:border-box;
+    padding:0px;
+}
+.container{min-height:83vh;
+display:flex;align-items:center;
+flex-direction:column;}
+h1{text-align:center;
+margin:14px 0; 
+}
+.MyForm{display:flex;flex-direction:column;justify-content:center;align-items:center;margin-bottom:5px;
+width:100%;}
+.MyInput{
+    width:40%;padding:9px;
+    margin:8px;
+    font-size:14px;
+    border:2px solid rgb(119, 187, 106);
+    border-radius:12px;
+    outline:none;
+}
+.btn{padding:10px 15px;
+font-size:15px;
+border:2px solid skyblue;
+border-radius: 12px;
+background-color: rgb(32, 81, 146);
+color:white;cursor:pointer;
+outline:none;margin:26px;}
+.btn:hover{background-color: rgb(173, 58, 125);}

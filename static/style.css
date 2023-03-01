@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@100;400&family=Roboto:ital,wght@1,100&display=swap');
+*{
+    margin:0px;
+    box-sizing:border-box;
+    padding:0px;
+}
+#navbar{background-color:black;padding:8px 14px;font-family: 'Labrada', serif;font-weight:bold;
+   }
+#navbar ul{display:flex;
+flex-direction:row;
+align-items:center}
+#navbar li{list-style:none;}
+#navbar li a {text-decoration:none;
+    color:white;padding:10px 30px;
+    font-size:20px;
+}
+#navbar li a:hover{
+    color:blueviolet;
+
+}
+#introSection{
+    
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;align-items:center;      font-size: 35px;
+height:300px; background-color:red; background:url('static/dance_web1.jpg')no-repeat center center /cover;
+}
+#introSection div.small{
+    font-size:23px;
+}
+#sponsorsSection{
+    height:300px;
+    background-color:#fbd6d6c7;
+
+}
+#sponsorsSection h2{
+    text-align:center;
+    padding-top:15px;
+    font-size:32px;
+}
+#sponsors img{height:inherit;width:300px;}
+#sponsors{height:220px; margin:0px 70px;
+margin-top:15px;}
+.spImage{padding:10px;}
+#MissionSection{
+    height:326px;
+    width:100%;
+    margin:auto;
+
+}
+#MissionSection h2{
+    text-align:center;
+    padding-top:12px; 
+    font-size:32px;
+}
+.card{
+    display:inline-block;
+    border:2px solid black;border-radius:10px;
+    width:30%;
+    margin:23px 22px;
+    height:209px;
+}
+.card h3{
+    text-align:center;
+    margin:12px;
+}
+.card-box{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.card-img img{
+    height:inherit;
+    }/*Here we can't give  height:120px in card-img directly cuz we are taking pic using img tag in HTML first not using background-url  that height,width in css will work. So, in this case we directly give height as height:120px using .card-img img{..} or give height:inherit meaning height inherited from parent elem. i.e. it's original height here and then we can change it using ,card-img{..}*/
+.card-img{height:120px; padding: 0px 14px;margin:12px 9px;}
+.card-content{padding:0px 10px;}
+.card-content p{font-size:16px;}
+#footer{
+    display: flex;
+height:60px;
+background-color:black;justify-content:center;align-items: center;color:white;
+font-size:20px;
+}
+#logo{display:flex;color:white;
+align-items:center;margin:0px;font-size:14px;margin-right: 40px;}
+#logo img{height:42px;padding-right: 8px;}
