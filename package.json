@@ -2,7 +2,7 @@
   "name": "danceacademy",
   "version": "1.0.0",
   "description": "This is a website for dance classes",
-  "main": "L-26_Dance-website.js",
+  "main": "Dance-website.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
